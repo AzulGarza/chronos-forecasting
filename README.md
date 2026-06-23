@@ -1,3 +1,13 @@
+# Disclaimer
+> This is a personal fork of [chronos-forecasting](https://github.com/amazon-science/chronos-forecasting), maintained to support custom changes for [timecopilot](https://github.com/TimeCopilot/TimeCopilot/) and publish pypi wheels at [`timecopilot-chronos-forecasting`](https://pypi.org/project/timecopilot-chronos-forecasting/). It may diverge from upstream.
+
+## Credits
+
+This project is a fork of by Original Author(s).  
+All credit for the original code belongs to them. This fork is maintained independently to support TimeCopilot-specific changes.
+
+
+
 <div align="center">
 
 # Chronos: Pretrained Models for Time Series Forecasting

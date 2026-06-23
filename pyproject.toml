@@ -1,22 +1,14 @@
 [project]
-name = "chronos-forecasting"
+name = "timecopilot-chronos-forecasting"
 dynamic = ["version"]
-authors = [
-  { name = "Abdul Fatir Ansari", email = "ansarnd@amazon.com" },
-  { name = "Lorenzo Stella", email = "stellalo@amazon.com" },
-  { name = "Caner Turkmen", email = "atturkm@amazon.com" },
-  { name = "Oleksandr Shchur", email = "shchuro@amazon.com" },
-  { name = "Jaris Küken", email = "kuekenj@amazon.com" },
-  { name = "Andreas Auer", email = "auerand@amazon.com" },
-]
 description = "Chronos: Pretrained models for time series forecasting"
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
 dependencies = [
-  "torch>=2.2,<3",
-  "transformers>=4.41,<6",
-  "accelerate>=1.1.0,<2",
+  "torch>=2.0,<3",
+  "transformers>=4.40.1,<6",
+  "accelerate>=0.32,<2",
   "numpy>=1.21,<3",
   "einops>=0.7.0,<1",
   "pandas>=2.0,<4",
